@@ -1,4 +1,4 @@
-obj-m += test1.o
+obj-m += memory_module.o
 KERNELDIR ?= /usr/src/linux-headers-$(shell uname -r)
 PWD := $(shell pwd)
 all:
