@@ -1,4 +1,4 @@
-obj-m += memory_module.o
+obj-m += pid3.o
 KERNELDIR ?= /usr/src/linux-headers-$(shell uname -r)
 PWD := $(shell pwd)
 all:
