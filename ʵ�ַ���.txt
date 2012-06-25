@@ -1,0 +1,10 @@
+1.内核模块
+用的是seq_file,遍历所有进程，对于每一个进程，遍历其vm_area_struct获取虚拟地址，在根据获取的虚拟地址获得其物理地址
+输出的格式为：
+pid pid_parent pid_name#frame1,frame2,|pid pid_parent pid_name#frame1,frame2,frame3,| ......
+2.图形界面
+在java中运行shell命令"cat /proc/mymemory",读取所有数据，用正则表达式解析，画图。每隔3s读取一次数据。
+3.软件功能
+选择某一特定进程，显示其物理帧。画图面板中一个红色的矩形为一帧。
+4.软件不足
+程序所获取的数据有错，调了很久无所得。
