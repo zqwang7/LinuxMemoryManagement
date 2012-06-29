@@ -1,0 +1,6 @@
+运行步骤：
+1.获取root权限
+2.make //编译内核模块
+3.insmod pid3.ko //加载内核模块pid3.ko
+4.javac test.java //编译java写的图形界面
+5.java test  //运行程序
